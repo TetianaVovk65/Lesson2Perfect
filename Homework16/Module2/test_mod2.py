@@ -2,14 +2,14 @@ import pytest
 
 
 @pytest.mark.param
-@pytest.mark.parametrize("divitedby3", [3, 6, 9])
-def test1(divitedby3):
-    assert divitedby3 % 3 == 0
+@pytest.mark.parametrize("divinity", [3, 6, 9])
+def test1(divinity):
+    assert divinity % 3 == 0
 
 
 @pytest.mark.param
 @pytest.mark.parametrize("color", 'Blue')
-def test1(color):
+def test2(color):
     assert color == color
 
 

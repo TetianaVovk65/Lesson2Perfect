@@ -10,6 +10,5 @@ def mod2_fixture_for_each_tests():
 
 @pytest.fixture
 def input_value():
-   input = 39
-   return input
-
+    input_val = 39
+    return input_val
