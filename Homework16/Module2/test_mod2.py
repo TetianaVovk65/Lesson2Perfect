@@ -7,6 +7,7 @@ def test1(divinity):
     assert divinity % 3 == 0
 
 
+some_dict =
 @pytest.mark.param
 @pytest.mark.parametrize("color", 'Blue')
 def test2(color):
